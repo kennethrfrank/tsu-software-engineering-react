@@ -1,0 +1,82 @@
+{
+  "resources": [
+    {
+      "id": 1,
+      "inventory_id": 2,
+      "resource_type_id": 3,
+      "resource_name": "Drill",
+      "max_number_of_resources": 77,
+      "current_number_of_resources": 23,
+      "created_by": "Neil DeGrasse Tyson",
+      "created_date": "Before you were born",
+      "modified_by": "Nunya Beeswax",
+      "modified_date": "Once upon a time",
+      "is_deleted": 0
+    },
+    {
+      "id": 1,
+      "inventory_id": 2,
+      "resource_type_id": 3,
+      "resource_name": "Drill",
+      "max_number_of_resources": 77,
+      "current_number_of_resources": 23,
+      "created_by": "Neil DeGrasse Tyson",
+      "created_date": "Before you were born",
+      "modified_by": "Nunya Beeswax",
+      "modified_date": "Once upon a time",
+      "is_deleted": 0
+    },
+    {
+      "id": 1,
+      "inventory_id": 2,
+      "resource_type_id": 3,
+      "resource_name": "Drill",
+      "max_number_of_resources": 77,
+      "current_number_of_resources": 23,
+      "created_by": "Neil DeGrasse Tyson",
+      "created_date": "Before you were born",
+      "modified_by": "Nunya Beeswax",
+      "modified_date": "Once upon a time",
+      "is_deleted": 0
+    },
+    {
+      "id": 1,
+      "inventory_id": 2,
+      "resource_type_id": 3,
+      "resource_name": "Drill",
+      "max_number_of_resources": 77,
+      "current_number_of_resources": 23,
+      "created_by": "Neil DeGrasse Tyson",
+      "created_date": "Before you were born",
+      "modified_by": "Nunya Beeswax",
+      "modified_date": "Once upon a time",
+      "is_deleted": 0
+    },
+    {
+      "id": 1,
+      "inventory_id": 2,
+      "resource_type_id": 3,
+      "resource_name": "Drill",
+      "max_number_of_resources": 77,
+      "current_number_of_resources": 23,
+      "created_by": "Neil DeGrasse Tyson",
+      "created_date": "Before you were born",
+      "modified_by": "Nunya Beeswax",
+      "modified_date": "Once upon a time",
+      "is_deleted": 0
+    },
+    {
+      "id": 1,
+      "inventory_id": 2,
+      "resource_type_id": 3,
+      "resource_name": "Drill",
+      "max_number_of_resources": 77,
+      "current_number_of_resources": 23,
+      "created_by": "Neil DeGrasse Tyson",
+      "created_date": "Before you were born",
+      "modified_by": "Nunya Beeswax",
+      "modified_date": "Once upon a time",
+      "is_deleted": 0
+    }
+  ]
+}

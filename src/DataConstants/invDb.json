@@ -1,0 +1,52 @@
+{
+  "inventory": [
+    {
+      "id": 1,
+      "client_id": 1,
+      "inv_name": "Kruger Barge",
+      "storage_type": 3,
+      "max_capacity": 100000,
+      "date_created": "2024-04-27 21:56:46"
+    },
+    {
+      "id": 1,
+      "client_id": 1,
+      "inv_name": "Kruger Barge",
+      "storage_type": 3,
+      "max_capacity": 100000,
+      "date_created": "2024-04-27 21:56:46"
+    },
+    {
+      "id": 1,
+      "client_id": 1,
+      "inv_name": "Kruger Barge",
+      "storage_type": 3,
+      "max_capacity": 100000,
+      "date_created": "2024-04-27 21:56:46"
+    },
+    {
+      "id": 1,
+      "client_id": 1,
+      "inv_name": "Kruger Barge",
+      "storage_type": 3,
+      "max_capacity": 100000,
+      "date_created": "2024-04-27 21:56:46"
+    },
+    {
+      "id": 1,
+      "client_id": 1,
+      "inv_name": "Kruger Barge",
+      "storage_type": 3,
+      "max_capacity": 100000,
+      "date_created": "2024-04-27 21:56:46"
+    },
+    {
+      "id": 1,
+      "client_id": 1,
+      "inv_name": "Kruger Barge",
+      "storage_type": 3,
+      "max_capacity": 100000,
+      "date_created": "2024-04-27 21:56:46"
+    }
+  ]
+}

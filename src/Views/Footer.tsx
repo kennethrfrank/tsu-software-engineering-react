@@ -7,6 +7,9 @@ function Footer() {
                 <ul>
                     <li><a className="navbar-item" href="/">Home</a></li>
                     <li><a className="navbar-item" href="/about">About</a></li>
+                    <li><a className="navbar-item" href="/inventory">Inventory</a></li>
+                    <li><a className="navbar-item" href="/contact">Contacts</a></li>
+                    <li><a className="navbar-item" href="/resources">Resources</a></li>
                 </ul>
             </div>
         </footer>
