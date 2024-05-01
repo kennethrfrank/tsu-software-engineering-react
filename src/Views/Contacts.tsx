@@ -23,7 +23,7 @@ export default function Main() {
           //Define the output of my objects to the array.
           response.data.forEach((element: ContactTableJsonObject) => {
             ContactTableArray.push({
-              id: (element.id ? element.id : null),
+              contact_id: (element.contact_id ? element.contact_id : null),
               EmailAddress: (element.email_address ? element.email_address: null),
               FirstName: (element.first_name ? element.first_name : ""),
               LastName: (element.last_name ? element.last_name : null),
@@ -75,7 +75,7 @@ export default function Main() {
           <section className="modal-card-body columns">
             <div className="column">
               <label className="has-text-weight-medium">Contact ID: </label>
-              <p className="mb-3">{(modalContactData.id ? modalContactData.id.toString() : "")}</p>
+              <p className="mb-3">{(modalContactData.contact_id ? modalContactData.contact_id.toString() : "")}</p>
               { modalContactData.FirstName &&
                 <>
                   <label className="has-text-weight-medium">Contact First Name: </label>
@@ -133,8 +133,8 @@ export default function Main() {
                 </thead>
                 <tbody>
                   {tableData.map((row, i) =>
-                    <tr id={(row.id ? row.id.toString() : "")}>
-                      <td>{(row.id ? row.id.toString() : "")}</td>
+                    <tr id={(row.contact_id ? row.contact_id.toString() : "")}>
+                      <td>{(row.contact_id ? row.contact_id.toString() : "")}</td>
                       <td>{(row.FirstName ? row.FirstName : "")}</td>
                       <td>{(row.LastName ? row.LastName.toString() : "")}</td>
                       <td>{(row.MiddleName ? row.MiddleName.toString() : "")}</td>

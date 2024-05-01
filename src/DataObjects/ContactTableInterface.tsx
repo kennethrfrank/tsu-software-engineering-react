@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export interface ContactTableRow {
-    id: Number,
+    contact_id: Number,
     EmailAddress: String,
     FirstName: String,
     LastName: String,
@@ -15,7 +15,7 @@ export interface ContactTableRow {
 
 
 export interface ContactTableJsonObject {
-    id: Number,
+    contact_id: Number,
     email_address: String
     first_name: String,
     last_name: String,
@@ -29,7 +29,7 @@ export interface ContactTableJsonObject {
 }
 export async function getContactTable() {
     const response = await axios.get(
-      'http://localhost:8060/contact',
+      'http://localhost:8000/contacts/?format=json',
       {}
     );
 

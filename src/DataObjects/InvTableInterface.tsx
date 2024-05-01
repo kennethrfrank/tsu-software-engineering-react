@@ -2,7 +2,7 @@ import axios from "axios";
 
 export interface InvTableRow {
     id: Number,
-    client_id: Number,
+    abc_client_id: Number,
     InvName: String,
     StorageType: Number,
     MaxCapacity: Number,
@@ -11,18 +11,18 @@ export interface InvTableRow {
 
 
 export interface InvTableJsonObject {
-    id: Number,
-    client_id: Number,
-    inv_name: String,
-    storage_type: Number,
-    max_capacity: Number,
+    inventory_id: Number,
+    abc_client_id: Number,
+    inventory_name: String,
+    storage_type_id: Number,
+    max_item_capacity: Number,
     date_created: String
 }
 
 
 export async function getInvTable() {
     const response = await axios.get(
-      'http://localhost:8050/inventory',
+      'http://localhost:8000/inventory/?format=json',
       {}
     );
 

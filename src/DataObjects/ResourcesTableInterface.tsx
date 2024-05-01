@@ -16,7 +16,7 @@ export interface ResourcesTableRow {
 
 
 export interface ResourcesTableJsonObject {
-  id: Number,
+  abc_resource_id: Number,
   inventory_id: Number,
   resource_type_id: Number,
   resource_name: String,
@@ -32,9 +32,32 @@ export interface ResourcesTableJsonObject {
 
 export async function getResourcesTable() {
     const response = await axios.get(
-      'http://localhost:8070/resources',
+      'http://localhost:8000/resource/?format=json',
       {}
     );
 
     return response;
+}
+
+export async function postResourcesTable(){
+  const response = await axios.post('http://localhost:8000/resource/',
+    {
+      resource_name: "yo",
+
+      inventory_id: 33,
+      max_number_of_resources: 2,
+      current_number_of_resources: 
+        2
+    ,
+    created_by: 
+        "Me"
+    ,
+    created_date: 
+        "2024-04-30T19:53:24Z"
+    ,
+    is_deleted: 
+        1
+    
+    }
+  )
 }

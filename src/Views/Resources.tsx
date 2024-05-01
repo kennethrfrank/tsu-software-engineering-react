@@ -23,7 +23,7 @@ export default function Main() {
           //Define the output of my objects to the array.
           response.data.forEach((element: ResourcesTableJsonObject) => {
             ResourcesTableArray.push({
-              id: (element.id ? element.id : null),
+              id: (element.abc_resource_id ? element.abc_resource_id : null),
               ResourceTypeId: (element.resource_type_id ? element.resource_type_id: null),
               ResourceName: (element.resource_name ? element.resource_name : ""),
               MaxNumberOfResources: (element.max_number_of_resources? element.max_number_of_resources : null),

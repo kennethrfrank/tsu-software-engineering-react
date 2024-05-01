@@ -23,11 +23,11 @@ export default function Main() {
           //Define the output of my objects to the array.
           response.data.forEach((element: InvTableJsonObject) => {
             invTableArray.push({
-              id: (element.id ? element.id : null),
-              client_id: (element.client_id ? element.client_id: null),
-              InvName: (element.inv_name ? element.inv_name : ""),
-              StorageType: (element.storage_type ? element.storage_type : null),
-              MaxCapacity: (element.max_capacity ? element.max_capacity : null),
+              id: (element.inventory_id ? element.inventory_id : null),
+              abc_client_id: (element.abc_client_id ? element.abc_client_id: null),
+              InvName: (element.inventory_name ? element.inventory_name : ""),
+              StorageType: (element.storage_type_id ? element.storage_type_id : null),
+              MaxCapacity: (element.max_item_capacity ? element.max_item_capacity : null),
               DateCreated: (element.date_created ? element.date_created : "")
             });
           });

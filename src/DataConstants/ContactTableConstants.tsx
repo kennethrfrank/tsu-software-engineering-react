@@ -1,7 +1,7 @@
 import {ContactTableRow} from '../DataObjects/ContactTableInterface';
 
 export const INIT_RESULT_DATA: ContactTableRow = {
-    id: -1,
+    contact_id: -1,
     EmailAddress: "KEY@FRNK.COM",
     FirstName: "KEY@FRNK.COM",
     LastName: "KEY@FRNK.COM",
